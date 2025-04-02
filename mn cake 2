@@ -284,10 +284,10 @@
   <!-- PAGE 6: VIDEO PAGE (old Page 5) -->
   <div id="page6" class="page">
     <h1>A Special Video For You</h1>
-    <video controls>
-      <source src="birthday-video.mp4" type="video/mp4">
-      Your browser does not support the video tag.
-    </video>
+     <video controls poster="birthday-poster.jpg" style="width: 80%; margin: 20px auto;">
+  <source src="birthday-video.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
     <button id="videoNextBtn">Next</button>
   </div>
 
